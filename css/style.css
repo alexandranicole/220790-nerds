@@ -1,0 +1,23 @@
+body {
+  font-family: Roboto, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 18px;
+}
+
+h1 {
+  font-family: Roboto, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.2;    
+}
+
+h2 {
+  font-family: Roboto, Tahoma, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 100%;    
+}

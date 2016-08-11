@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="38" viewBox="0 0 240 38">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.15;
+      }
+    </style>
+  </defs>
+  <image id="btn_hover" data-name="btn hover" class="cls-1" width="240" height="38" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAAAmCAQAAABQO94rAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgCAsMABbALzHXAAAAlklEQVR42u3RwQmAMADF0F+LBz0I4g7uv5iodylOUQohb4JASuZsOSKiO0/N7l6sJa3kHF2hnqbRAerLwXAOhnMwnIPhHAznYDgHwzkYzsFwDoZzMJyD4RwM52A4B8M5GM7BcA6GczCcg+EcDOdgOAfDORjOwXAOhnMwnIPhHAznYDgHwzkYriZZR0eom6vmS3Mx1J33B6AjCH+eFfRgAAAAAElFTkSuQmCC"/>
+</svg>
