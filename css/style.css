@@ -238,26 +238,23 @@ position:relative;
   height:416px;
   background: #e9e5dc;}
 
-.google-map-container .write-us{
-  position: relative;
-  top: 100px;
-  width: 250px;
-  height: 240px;
-  background: #fff;
-  text-align: center;
-}
 
 .logo-3{
-
+position: relative;
+width:100px;
+height: 50px;
+bottom: 500px;
+left: 900px;
 }
 
 .write-us{
-position: relative;
-  bottom: 600px;
+ position: relative;
+  bottom: 350px;
+  right: 200px;
   margin-left:auto;
   margin-right:auto;
-  width: 635px;
-  height: 420px;
+  width: 250px;
+  height: 240px;
   background: #fff;
 }
 
