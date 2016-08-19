@@ -208,20 +208,30 @@ font-size: 14px;
 }
 /*FOOTER*/
 
-.footer {
- height: 220px;
+.main-footer {
+position: relative;
 }
 
 .google-map-container {
   position: absolute;
-  height:416px;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: #e9e5dc;
+  text-align: center;
+}
+
+.container{
+position: relative;
+width: 900px;
+margin: 0 auto;
+outline: 2px solid green;
 }
 
 .top {
-  position: relative;
-  top: -300px;
+height: 416px;
 }
+
 .write-us{
  float: left;
  width: 250px;
@@ -234,6 +244,7 @@ float: right;
 width:100px;
 height: 50px;
 }
+
 .footer-social {
 float: left;
 width: 240px;
