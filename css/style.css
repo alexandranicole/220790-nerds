@@ -47,34 +47,31 @@ width: 140px;
 width: 880px;
 margin-left: 160px;
 margin-right: 160px;
- outline: 2px solid red;
+outline: 2px solid red;
 }
 
 .main-navigation {
-  width: 600px;
-  background: #eee;
-  margin-right: 60px;
   float: left;
+  width: 600px;
+  height: 115px;
+  background: #eee;
   outline: 2px solid yellow;
+  font-size: 0;
 }
 
 .main-navigation li {
   display: inline-block;
   vertical-align: middle;
+  font-size: 16px;
 }
 
 .main-navigation a {
-  padding: 26px 19px;
-  font-size: 16px;
-  line-height: 20px;
-  color: black;
-  text-decoration: none;
 }
 
 .user-block {
-float: right;
-  min-height: 85px;
+  float: right;
   width: 90px;
+  font-size: 12px;
   outline: 2px solid yellow;
 }
 
@@ -82,14 +79,12 @@ float: right;
   clear: both;
   width: 880px;
   height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
-   outline: 2px solid yellow;
+  outline: 2px solid yellow;
 }
 
 
 .slider {
+  clear: both;
   width: 1200px;
   height: 319px;
   background: #eee;
@@ -98,8 +93,6 @@ float: right;
 
 .slider-content {
 width: 880px;
-margin-left: 160px;
-margin-right: 160px;
 outline: 2px solid green;
 }
 
@@ -111,74 +104,57 @@ height: 235px;
 
 .left{
 float: left;
-  width: 390px;
-  min-height: 300px;
+width: 390px;
+
 }
 
 .right{
 float: right;
-  width: 400px;
-  min-height: 300px;
-}
+width: 400px;
 
+}
 
 
 /*INDEX*/
 
 .catalog {
-  width: 880px;
-  
-  outline: 2px solid green;
+width: 880px;
+outline: 2px solid green;
 }
 
 .catalog-item{
-display: inline-block;
-vertical-align: middle;
+float: left;
 width: 240px;
-padding-left: 40px;
 }
 
 .catalog-item:last-child{
   margin-right: 0px;
 }
 
-
 .about-us{
-   width: 880px;
-  margin-top: 140px;
-  
+  width: 880px;
+  outline: 2px solid green;
 }
 
 .content-left{
   float: left;
   width: 577px;
-  min-height: 330px;
 }
 
 .content-right{
   float: right;
   width: 250px;
-  min-height: 334px;
 }
 
 .partners{
   width: 880px;
-  margin-bottom: 100px;
-  
+  font-size: 0;
+  outline: 2px solid green;
 }
 
 .partners a {
   display: inline-block;
   vertical-align: middle;
-  padding-left: 60px;
-}
-
-.partners a:last-child{
-  margin-right: 0px;
-}
-
-.partners a:first-child{
-  margin-left: 0px;
 }
 
 /*CATALOG*/
@@ -186,29 +162,32 @@ padding-left: 40px;
 .sidebar {
   float: left;
   width: 240px;
-  min-height: 740px;
+
 }
 
 .right-block{
-float: left;
-width: 460px;
+float: right;
+width: 560px;
+
 }
 
-.sorting ul{
-display: inline-block;
-  vertical-align: middle;
+.sorting {
+font-size: 0;
+outline: 2px solid green;
 }
 
 .sorting li{
- display: inline-block;
-  vertical-align: middle; 
+display: inline-block;
+vertical-align: middle;  
+font-size: 12px;
 }
 
+
 .catalog-2 {
-  float: right;
    width: 560px;
    margin-right: 10px;
    margin-left: 10px;
+   font-size: 0;
 }
 
 .catalog-item-c {
@@ -222,9 +201,15 @@ display: inline-block;
   margin-right: 0;
 }
 
+.pagination {
+font-size: 0;
+outline: 2px solid green;
+}
+
 .pagination-list  li {
 display: inline-block;
 vertical-align: center;  
+font-size: 14px;
 }
 /*FOOTER*/
 
@@ -234,7 +219,8 @@ vertical-align: center;
 }
 
 .google-map-container {
-position:relative;
+  position:relative;
+  margin-top: 50px;
   height:416px;
   background: #e9e5dc;}
 
@@ -261,10 +247,10 @@ left: 900px;
 .footer-social {
 float: left;
 width: 240px;
-height: 68px;
 }
 
 .footer-text {
 float: right;
+width: 550px;
 }
  
