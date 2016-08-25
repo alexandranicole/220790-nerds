@@ -3,16 +3,18 @@
  <head>
    <meta charset="utf-8">
    <title>Nerds-Index</title>
+   <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic" rel="stylesheet">
    </head>
  <body>
    <header class="main-header">
-     <div class= "container">
-       <a class="logo" href="#"><img src="img/logo/index-logo-header.png" width="140" height="65" alt="pic"></a>
+     <div class= "container clearfix">
+       <a class="logo" href="#"><img src="img/logo/index-logo-header.png" width="140" height="60" alt="pic"></a>
        <nav class="main-navigation">
          <ul>
            <li>
-             <a href="#">Студия</a>
+             <a class="active" href="#">Студия</a>
            </li> 
            <li>
              <a href="#">Клиент</a>
@@ -24,77 +26,64 @@
              <a href="#">Контакты</a>
            </li>   
          </ul>
+         </nav>
          <div class="user-block">
-           <a href="#">Корзина</a>
+           <a class="basket" href="#">Корзина</a>
          </div>
-        </nav>
        <div class="slider"> 
-         <div class="dots">
-           <span></span>
-           <span></span>
-           <span></span>
-          </div>
-         <div class="slider-content">
-           <div class="slider-item clearfix">
-             <div class="left">
-               <h1>Долго,дорого,скурпулезно.</h1>
-               <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-               <a class="login" href="#">Узнать больше</a>
-             </div>
-           <div class="right">
-             <img src="img/slider/slider1.png" width="340" height="233" alt="pic"> 
-          </div>
+        <input type="radio" id="btn-11" name="toggle" checked>
+        <input type="radio" id="btn-22" name="toggle">
+        <input type="radio" id="btn-33" name="toggle">
+        <div class="slider-controls">
+          <label for="btn-11"></label>
+          <label for="btn-22"></label>
+          <label for="btn-33"></label>
         </div>
-        <!--- <div class="slider-item">
+         <div class="slider-content">
+           <div class="slider-item">
+             <div class="left">
+                <h1>Долго,дорого,<br>скурпулезно.</h1>
+               <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+               <a class="btn" href="#">Узнать больше</a>
+             </div>
+        </div>
+        <div class="slider-item">
              <div class="left">
                <h1>Любители вы математику, как любим ее мы?</h1>
                <p>Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать.</p>
-               <a class="login" href="#">Узнать больше</a>
+               <a class="btn" href="#">Узнать больше</a>
              </div>
-           <div class="right">
-             <img src="img/slider/slider2.png" width="230" height="250" alt="pic"> 
-          </div>
         </div>
         <div class="slider-item">
              <div class="left">
                <h1>Только наркотики, только хардкор!</h1>
                <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галюциногенов</p>
-               <a class="login" href="#">Узнать больше</a>
+               <a class="btn" href="#">Узнать больше</a>
              </div>
-           <div class="right">
-             <img src="img/slider/slider3.png" width="324" height="310" alt="pic"> 
-          </div>
         </div>
-      </div>-->
+      </div>
      </div>
-     </div>
-    </div>
+       </div>
     </header>
     <main class="container">
      <div class="catalog clearfix">
       <div class="catalog-item">
-        <a href="#"><img  src="img/website.png" width="240" height="124" alt="pic"></a>
-      <a href="#">веб-сайты</a>
+        <a class="pic" href="#"><img  src="img/website.png" width="240" height="124" alt="pic"></a>
+      <a class="name" href="#">веб-сайты</a>
       <p>Мир никогда не будет прежним, после того, как увидит ваш сайт!</p>
-      <div class="buy">
-        <a href="#">Заказать</a>
-      </div>
+        <a  class="btn-1" href="#">Заказать</a>
       </div>
       <div class="catalog-item">
-        <a href="#"><img  src="img/app.png" width="240" height="124" alt="pic"></a>
-     <a href="#">приложения</a>
+        <a class="pic" href="#"><img  src="img/app.png" width="240" height="124" alt="pic"></a>
+     <a class="name" href="#">приложения</a>
      <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-      <div class="buy">
-        <a href="#">Заказать</a>
-      </div>
+        <a  class="btn-2" href="#">Заказать</a>
       </div>
       <div class="catalog-item">
-        <a href="#"><img src="img/presentation.png" width="240" height="124" alt="pic"></a>
-      <a href="#">презентации</a>
+        <a class="pic" href="#"><img src="img/presentation.png" width="240" height="124" alt="pic"></a>
+      <a class="name" href="#">презентации</a>
       <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-      <div class="buy">
-        <a href="#">Заказать</a>
-      </div>
+        <a  class="btn-3" href="#">Заказать</a>
       </div>
       </div>
       <div class="about-us clearfix">
@@ -103,18 +92,19 @@
           <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы</p>
           <p class="second-header">Выполняем заказы на разработку</p> 
           <ul class="about-us-list">
-            <li class="about-us-list__item">Веб-сайтов любой сложностти</li>
-            <li class="about-us-list__item">Мобильных приложений для iOS и Android</li>
-            <li class="about-us-list__item">Слайдшоу и видео для корпоративных презентаций</li>
+            <li class="about-us-list-item">Веб-сайтов любой сложностти</li>
+            <li class="about-us-list-item">Мобильных приложений для iOS и Android</li>
+            <li class="about-us-list-item">Слайдшоу и видео для корпоративных презентаций</li>
           </ul>
         </div>
         <div class="content-right">
           <a class="logo-2" href="#"><img src="img/logo/index-logo2.png" width="190" height="80" alt="pic"></a>
-          <p class="second-header">Как мы работаем</p> 
+            <div class="date"><p>since 2004</p></div>
+          <p class="second-header">Как мы работаем:</p> 
           <ul class="about-us-list">
-            <li class="about-us-list__item">С самоотдачей 146%</li>
-            <li class="about-us-list__item">Соблюдая строки на 100%</li>
-            <li class="about-us-list__item">По предоплате 50%</li>
+            <li class="about-us-list-item">С самоотдачей 146%</li>
+            <li class="about-us-list-item">Соблюдая строки на 100%</li>
+            <li class="about-us-list-item">По предоплате 50%</li>
           </ul>
         </div>
       </div>
@@ -133,17 +123,18 @@
       <div class="write-us">
       <h3>nerds design studio</h3>
       <p>191186, Санкт-Петербург,ул. Большая Конюшенная, д.19/8</p>
-      <p>тел.+7(812)275-75-75</p>
-      <button class="btn">Напишите нам
+          <p>тел.+7(812)275-75-75</p>
+      <button class="btn-4">Напишите нам
       </button>
       </div>
-      <img class="logo-3" src="img/logo/logo-footer.png" width="93" height="40" alt="pic">
+      <img class="logo-3" src="img/logo/logo-footer.png" width="98" height="38" alt="pic">
+      <img class="marker" src="img/marker-footer.png">
       </div>
       <div class="bottom clearfix">
         <div class="footer-social">
-          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-vk" href="#"></a>
+          <a class= "social-btn social-btn-fb" href="#"></a>
+          <a class="social-btn social-btn-inst" href="#"></a>
         </div>
         <div class="footer-text">
           <h2>Давайте дружить, это выгодно!</h2>
