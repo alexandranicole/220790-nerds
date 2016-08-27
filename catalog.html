@@ -10,17 +10,17 @@
  <body>
    <header class="main-header">
      <div class= "container">
-      <a class="logo" href="../220790-nerds/index.html"><img src="img/logo/index-logo-header.png" width="140" height="60" alt="pic"></a>
+      <a class="logo" href="index.html"><img src="img/logo/index-logo-header.png" width="140" height="60" alt="pic"></a>
       <nav class="main-navigation">
         <ul>
           <li>
-            <a href="../220790-nerds/index.html">Студия</a>
+            <a href="index.html">Студия</a>
           </li> 
           <li>
             <a href="#">Клиент</a>
           </li>
           <li>
-            <a href="../220790-nerds/catalog.html">Магазин</a>
+            <a class="active" href="catalog.html">Магазин</a>
           </li> 
           <li>
             <a href="#">Контакты</a>
@@ -55,7 +55,7 @@
      <h3>Сетка</h3>
        <ul class="filter-list">
            <li class="filter-item">
-                 <input type="radio" id="ch-1" checked><label for="ch-1">Адаптивная
+                 <input type="radio" id="ch-1" disabled><label for="ch-1">Адаптивная
                </label>
            </li>
           <li class="filter-item">
@@ -70,7 +70,7 @@
           <h3>Особенности</h3>
           <ul class="filter-list">
             <li class="filter-item">
-                <input type="checkbox" id="ch-4"><label for="ch-4">Слайдер
+                <input type="checkbox" id="ch-4" disabled><label for="ch-4">Слайдер
               </label>
             </li>
             <li class="filter-item">
@@ -78,7 +78,7 @@
               </label>
             </li>
             <li class="filter-item">
-                <input type="checkbox" id="ch-6"><label for="ch-6">Новости
+                <input type="checkbox" id="ch-6" disabled><label for="ch-6">Новости
               </label>
             </li>
             <li class="filter-item">
@@ -95,16 +95,16 @@
        </aside>
     <div class="right-block">
         <div class="sorting">
-        <ul>
-         <li>Сортировать:</li>
-             <li>
-               <a href="#">по цене</a>
+        <ul class="sort-list">
+         <li class="sort-punkt">Сортировать:</li>
+             <li class="sort-punkt">
+               <a class="sort-item" href="#">по цене</a>
              </li>
-             <li>
-               <a href="#">по типу</a>
+             <li class="sort-punkt">
+               <a class="sort-item" href="#">по типу</a>
              </li>
-             <li>
-               <a href="#">по фунционалу</a>
+             <li class="sort-punkt">
+               <a class="sort-item active" href="#">по фунционалу</a>
              </li>
               </ul>
               <ul class="arrow">
@@ -112,7 +112,7 @@
                 <a class="triangle-down" href="#"></a>
              </li>
              <li>
-                 <a class="triangle" href="#"></a>
+                 <a class="triangle active" href="#"></a>
              </li>
            </ul>
         </div>
@@ -137,11 +137,11 @@
         <div class="catalog-dot"></div>
       </div>
         <a href="#"><img src="img/temp/sunset2.jpg" width="240" height="240" alt="pic"></a>
-        <!--<div class="item-description">
+        <div class="item-description">
         <h2>sunset</h2>
         <p>Интернет-магазин с личным кабинетом</p>
         <a class="btn btn-buy" href="#">10000р.</a>
-       </div>-->
+       </div>
       </div>
       <div class="catalog-item-c">
           <div class="catalog-item-dots">
@@ -150,11 +150,11 @@
         <div class="catalog-dot"></div>
       </div>
         <a href="#"><img src="img/temp/forte3.jpg" width="240" height="240" alt="pic"></a>
-        <!--<div class="item-description">
+        <div class="item-description">
         <h2>forte</h2>
         <p>Отличный макет для личного блога</p>
         <a class="btn btn-buy" href="#">5000р.</a> 
-      </div>-->
+      </div>
       </div>
       <div class="catalog-item-c">
           <div class="catalog-item-dots">
@@ -163,11 +163,11 @@
         <div class="catalog-dot"></div>
       </div>
         <a href="#"><img src="img/temp/thai4.jpg" width="240" height="240" alt="pic"></a>
-        <!--<div class="item-description">
+        <div class="item-description">
         <h2>modern organic thai</h2>
         <p>Сайт для ресторана быстрого питания</p>
         <a class="btn btn-buy" href="#">12000р.</a> 
-      </div>-->
+      </div>
       </div> 
      <div class="catalog-item-c">
         <div class="catalog-item-dots">
@@ -176,11 +176,11 @@
         <div class="catalog-dot"></div>
       </div>
       <a href="#"><img src="img/temp/avenue5.jpg" width="240" height="240" alt="pic"></a>
-      <!--<div class="item-description">
+      <div class="item-description">
         <h2>avenue</h2>
         <p>Макет для блога о путешествиях</p>
         <a class="btn btn-buy" href="#">8000р.</a> 
-      </div>-->
+      </div>
       </div>
      <div class="catalog-item-c">
       <div class="catalog-item-dots">
@@ -189,11 +189,11 @@
         <div class="catalog-dot"></div>
       </div>
       <a href="#"><img src="img/temp/dovetail6.jpg" width="240" height="240" alt="pic"></a>
-      <!--<div class="item-description">
+      <div class="item-description">
         <h2>dovetail</h2>
         <p>Интренет-магазин с галереей товаров</p>
         <a class="btn btn-buy" href="#">14000р.</a> 
-      </div>-->
+      </div>
      </div>
      </div>
      <div class="pagination">
@@ -221,7 +221,7 @@
       </div>
      <div class="footer-marker">
       <img class="logo-3" src="img/logo/logo-footer.png" width="98" height="38" alt="pic">
-      </div>
+          </div>
           </div>
        <div class="bottom clearfix">
         <div class="footer-social">
@@ -235,7 +235,6 @@
         </div>
        </div>
         </div>
-  </div>
   </footer>
 </body>
 </html>
