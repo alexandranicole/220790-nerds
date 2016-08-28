@@ -297,12 +297,12 @@ text-align: left;
 
 .btn {
   width: 140px;
+  height: 38px;
+  text-align: center;
   display: inline-block;
-  padding: 12px 10px;
   font-weight: 300;
   font-size: 12px;
-  line-height:18px;
-  text-align: center;
+  line-height:38px;
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
@@ -322,7 +322,7 @@ text-align: left;
 
 .red-big{
   width: 220px;
-  padding: 12px 10px;
+  
   font-weight: 300;
 }
 
@@ -841,8 +841,8 @@ input[type="radio"]:disabled + label {
 
 .btn-filter{
     width: 155px;
-    padding: 10px 36px;
-   
+    height: 38px;
+    line-height: 38px;
     background-color: #f1f1f1;
     color: black;
 }
@@ -1082,14 +1082,17 @@ background-color: #797979;
 }
 
 .item-description {
+  overflow: hidden;
   display: block;
   position: absolute;
   width: 200px;
   height: 200px;
   margin: 20px;
+  padding-bottom: 30px;
   top: 30px;
   left: 2px;
   background-color: #ffffff;
+  box-sizing: border-box;
 }
 
 .item-description p {
@@ -1140,32 +1143,39 @@ background-color: #797979;
   vertical-align: middle; 
 }
   
- .pagination-item {   
-  text-align: center;
-  margin-right: 10px;
-  height: 38px;
-  width: 38px;
-  background-color: #f1f1f1;  
-  border-radius: 3px;
-}
 
 .pagination-next{
   width: 140px;
 }
 
-.pag {
-  display: inline-block;
-  padding-top: 11px;
-    padding-bottom: 11px;
-  line-height: 18px;
-  font-size: 14px;
-  text-decoration: none;
-  color: #000;}
-
-.pag1{
-    text-transform: uppercase;
+.pagination-item {
+    text-align: center;
+    margin-right: 10px;
+    height: 34px;
+    width: 34px;
+    line-height: 38px;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    border: 2px solid transparent;
 }
 
+.pagination-current {
+    background: #fff;
+    border: 2px solid #e1e1e1;
+}
+
+.pag {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;}
+
+.pag1 {
+   text-transform: uppercase;
+}
+
+.pagination-next{
+  width: 140px;  
+}
 
 .pagination-item:hover,
 .pagination-item-next:hover{
@@ -1177,12 +1187,6 @@ background-color: #797979;
     background-color: #d5d5d5;
 }
 
-.pagination-current{
-  background: #fff;
-  border: 2px solid #e1e1e1;
-  width: 34px;
-  height: 34px;
-}
 
 
 /*----------------FOOTER------------------*/
@@ -1207,6 +1211,7 @@ height: 416px;
 
 .write-us{
  float: left;
+ box-sizing: border-box; 
  max-width:  250px;
  min-height: 240px;
  background: #fff;
@@ -1214,7 +1219,6 @@ height: 416px;
  margin-left: 10px;
  padding-left: 23px;
  padding-right: 23px;
-
 }
 
 .write-us h3{
@@ -1351,3 +1355,119 @@ margin-right: 10px;
 margin-bottom: 5px;
 margin-top: 10px;    
 }
+
+
+
+
+/*-----------FEEDBACK WINDOW-----------------*/
+
+.feedback-content {
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  margin-left: -310px;
+  margin-top: 1250px;
+  width: 630px;
+  padding: 55px 90px 49px 80px;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.7);
+}
+
+.feedback-close {
+  width: 41px;
+  height: 41px;
+  padding: 0;
+  font-size: 0;
+  background-color: #fb565a;
+  border-radius: 50%;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.feedback-close::before {
+  content: "";
+  width: 5px;
+  height: 25px;
+  background-color: #fff;
+  transform: rotate(45deg);  
+  position: absolute;
+  top: 8px;
+  left: 18px
+  
+}
+
+.feedback-close::after {
+  content: "";
+  width: 5px;
+  height: 25px;
+  background-color: #fff;
+  transform: rotate(-45deg);  
+  position: absolute;
+  top: 8px;
+  left: 18px;  
+}
+
+.write-us-fb {
+ width: 460px;
+ box-sizing: border-box;
+}
+
+.write-us-fb label {
+  font-size: 16px;
+  line-height: 18px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.write-us-p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.right-p{
+    float: right;   
+    margin-right: 0;
+    margin-left: 16px;
+}
+
+.write-us-field {
+  width: 196px;
+  border: 2px solid #d7dcde;
+  border-radius: 3px;
+  padding: 8px 10px;
+}
+
+
+.write-us-field:hover {
+  border-color: #a2a9ac;
+}
+
+.write-us-field:focus{
+  border-color: #56bffb;
+}
+
+.write-us-fb input{
+  text-transform: uppercase;
+  font-size: 12px;   
+}
+
+.text-field {
+  width: 460px;
+  height: 94px;
+  
+}
+
+.write-us-btn {
+  margin-top: 28px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
