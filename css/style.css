@@ -1399,7 +1399,6 @@ margin-top: 10px;
   position: absolute;
   top: 8px;
   left: 18px
-  
 }
 
 .feedback-close::after {
@@ -1442,7 +1441,6 @@ margin-top: 10px;
   border-radius: 3px;
   padding: 8px 10px;
 }
-
 
 .write-us-field:hover {
   border-color: #a2a9ac;
