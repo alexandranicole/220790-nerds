@@ -1223,7 +1223,7 @@ height: 416px;
 }
 
 .write-us h3{
-  padding-top: 29px;
+  padding-top: 28px;
   padding-bottom: 20px;
   margin: 0;
 }
@@ -1361,14 +1361,14 @@ margin-top: 10px;
 
 .feedback-content {
   box-sizing: border-box;
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  top: 10%;
   left: 50%;  
   margin-left: -310px;
-  margin-top: 1250px;
+  margin-bottom: 200px;
   width: 630px;
   height: 416px;
-  padding: 53px 90px 49px 80px;
+  padding: 41px 90px 49px 80px;
   color: #000;
   background-color: #fff;
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.7);
@@ -1460,6 +1460,7 @@ margin-top: 21px;
   border-radius: 3px;
   padding: 8px 10px;
 }
+
 
 .write-us-field:hover {
   border-color: #a2a9ac;
