@@ -1466,6 +1466,8 @@ margin-top: 21px;
   padding: 8px 10px;
 }
 
+::-webkit-input-placeholder {color:#000;}
+
 
 .write-us-field:hover {
   border-color: #a2a9ac;
