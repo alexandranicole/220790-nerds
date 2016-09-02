@@ -1,46 +1,3 @@
-/*.sprite {
-    background-image: url(../img/sprite/spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
-.sprite--check {
-    width: 24px;
-    height: 18px;
-    background-position: -10px -10px;
-}
-
-.sprite--icon-basket3 {
-    width: 15px;
-    height: 15px;
-    background-position: -10px -48px;
-}
-
-.sprite-icon-basket {
-    width: 15px;
-    height: 15px;
-    background-position: -10px -83px;
-}
-
-.sprite-icon-f {
-    width: 12px;
-    height: 22px;
-    background-position: -10px -118px;
-}
-
-.sprite-icon-inst {
-    width: 21px;
-    height: 21px;
-    background-position: -10px -160px;
-}
-
-.sprite-icon-vk {
-    width: 26px;
-    height: 15px;
-    background-position: -10px -201px;
-}
-
-*/
 
 body {
   min-width: 900px;
@@ -338,40 +295,6 @@ text-align: left;
   background-image: url("../img/slider/slider3.png");
 }
 
-/*-----------ANIMATION SLIDE
-
-#btn-11:checked ~ .slider-content .slider-item:nth-child(1) {
-   left: 0;
-}
-
-#btn-11:checked ~ .slider-content .slider-item:nth-child(2),
-#btn-11:checked ~ .slider-content .slider-item:nth-child(3) {
-left: 880px;
-}
-
-#btn-22:checked ~ .slider-content .slider-item:nth-child(1) {
-  left: -880px;
-}
-
-#btn-22:checked ~ .slider-content .slider-item:nth-child(2) {
-  left: 0;
-}
-
-#btn-22:checked ~ .slider-content .slider-item:nth-child(3) {
-  left: -880px;
-}
-
-#btn-33:checked ~ .slider-content .slider-item:nth-child(1) {
-  left: -880px;
-}
-
-#btn-33:checked ~ .slider-content .slider-item:nth-child(2) {
-  left: -880px;
-}
-
-#btn-33:checked ~ .slider-content .slider-item:nth-child(3) {
-  left: 0;
-}---------*/
 
 .slider-item {
   display: none;
@@ -438,7 +361,6 @@ padding-right: 80px;
     padding-top: 16px;
     margin: 0;
 }
-
 
 
 .btn-green{
@@ -1020,7 +942,6 @@ color: black;
 }
 
 
-
 .catalog-2 {
     clear:both;
    width: 560px;
@@ -1242,44 +1163,12 @@ margin-bottom: 20px;
 margin-top: 0;
 }
 
-
-/*.logo-3{
- position: relative;
- width: 98px;
- height: 38px;
- padding-top: 167px;
- padding-right: 50px;
- z-index: 2;
-}
-
-.marker{
-position: absolute;
-top: 120px;
-right: -70px;
-z-index: 1;
-}*/
-
 .red-big{
     padding: 0;
     width: 206px;
     height: 38px;
     border-radius: 3px;
 }
-
-
-/*.marker{
-position: absolute;
-top: 120px;
-right: -70px;
-z-index: 1;
-}
-
-.logo-3{
-float: right;
-width:100px;
-height: 50px;
-}*/
-
 
 .footer-marker{
     width: 196px;
