@@ -73,7 +73,7 @@ h3 {
 
 .main-navigation a {
     display: block;
-    margin: 0 22px;
+    margin: 0 23px;
     text-decoration: none;
     color: #000
 }
@@ -244,6 +244,10 @@ h3 {
     cursor: pointer
 }
 
+.btn-big {
+  width: 240px;	
+}
+
 .btn:hover {
     background-color: #d6494d
 }
@@ -316,7 +320,8 @@ h3 {
     line-height: 22px;
     padding-bottom: 20px;
     padding-top: 16px;
-    margin: 0
+    margin: 0;
+	color: #283136;
 }
 
 .btn-green {
@@ -755,7 +760,7 @@ button {
     margin-top: 0
 }
 
-.sort-punkt {
+.sort-point {
     display: inline-block;
     vertical-align: middle;
     font-size: 12px;
@@ -872,9 +877,9 @@ button {
     border: 10px solid #00ca74;
     border-bottom-width: 0;
 	border-left-width: 5px;
-  border-right-width: 5px;
+    border-right-width: 5px;
 	border-left-color: transparent;
-  border-right-color: transparent;
+    border-right-color: transparent;
 }
 
 .catalog-2 {
@@ -1023,7 +1028,8 @@ button {
 }
 
 .pagination-item-next:active,.pagination-item:active {
-    background-color: #d5d5d5
+    background-color: #d5d5d5;
+	box-shadow: inset 0 3px 0 0 #b5b5b5;
 }
 
 .main-footer {
@@ -1248,10 +1254,6 @@ button {
     padding: 8px 10px;
     text-transform: uppercase;
     font-size: 12px;
-    color: #000
-}
-
-::-webkit-input-placeholder {
     color: #000
 }
 
