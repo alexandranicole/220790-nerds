@@ -252,7 +252,7 @@ h4 {
 
 .btn {
   width: 140px;
-  height: 38px;
+  min-height: 38px;
   text-align: center;
   display: inline-block;
   font-weight: 300;
@@ -263,8 +263,7 @@ h4 {
   text-decoration: none;
   background: #fb565a;
   border-radius: 3px;
-  cursor: pointer;
-  overflow: hidden;
+  cursor: pointer; 
 }
 
 .btn-big {
@@ -1135,7 +1134,7 @@ iframe {
 .write-us {
   float: left;
   box-sizing: border-box; 
-  max-width:  250px;
+  min-width:  250px;
   min-height: 240px;
   background: #fff;
   margin-top: 88px;
