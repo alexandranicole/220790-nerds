@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 30px;
   text-transform: uppercase; 
@@ -45,6 +45,11 @@ h4 {
 .main-header {
   background: #eee;
   margin: 0 auto;
+  height: 436px;
+}
+
+.second {
+  height: 328px;	
 }
 
 .logo {
@@ -59,8 +64,12 @@ h4 {
   width: 450px;
   font-size: 0;
   margin-top: 55px;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   margin-left: 140px;
+}
+
+.shop-navigation {
+  margin-bottom: 60px;	
 }
 
 .main-navigation ul {
@@ -79,7 +88,7 @@ h4 {
 
 .main-navigation a {
   display: block;  
-  margin: 0 23px;
+  margin: 0 22px;
   text-decoration: none;
   color: #000000;
 }
@@ -117,11 +126,13 @@ h4 {
   display: block;
   font-size: 14px;
   line-height: 30px;
+  text-transform: uppercase; 
   vertical-align: top;
   text-decoration: none;
-  padding-left: 34px;
+  padding-left: 33px;
   margin-top: 55px;
   padding-bottom: 40px;
+  margin-right: 5px;
   color: #000000;
   position: relative;
 }
@@ -179,6 +190,11 @@ h4 {
 .basket .active {
   color: #000;  
   border-bottom: 2px solid #fb565a;
+}
+
+main.shop {
+  margin-top: 75px;
+  
 }
 
 /*----------------------------SLIDER-----------------*/
@@ -241,7 +257,7 @@ h4 {
 .left p {
   font-size: 16px;
   line-height: 22px;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-right: 10px;
   padding-bottom: 27px;
   margin-bottom: 0;
@@ -319,8 +335,8 @@ h4 {
   background: #c1c1c1;
 }
 
-.main-h {
-  margin: 68px 116px 89px 102px;
+.main-h h4 {
+  margin: 60px 116px 77px 102px;
   text-align: center;
 }
 
@@ -330,8 +346,8 @@ h4 {
   height: 301px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 81px;
-  margin-bottom: 70px;
+  margin-top: 80px;
+  margin-bottom: 76px;
 }
 
 .catalog-item {
@@ -343,7 +359,7 @@ h4 {
 .pic {
   display: block;
   height: 124px;
-  margin-bottom: 27px; 
+  margin-bottom: 23px; 
 }
 
 .name {
@@ -357,8 +373,8 @@ h4 {
 .catalog-item p {
   font-size: 15px;
   line-height: 22px;
-  padding-bottom: 20px;
-  padding-top: 16px;
+  padding-bottom: 30px;
+  padding-top: 12px;
   margin: 0;
   color: #283136;
 }
@@ -402,7 +418,7 @@ h4 {
   height: 335px;
   padding-top: 0;
   margin-right: 57px;
-  margin-top: 72px;
+  margin-top: 75px;
 }
 
 .content-left h2 {
@@ -420,9 +436,9 @@ h4 {
 }
 
 .date p {
-  padding-top: 28px;
+  padding-top: 18px;
   padding-right: 70px;
-  padding-left: 75px;
+  padding-left: 78px;
   text-transform: uppercase;
   font-size: 16px;
   margin-bottom: 70px;
@@ -436,7 +452,7 @@ h4 {
   width: 240px;
   height: 400px;
   margin-right: 0px;
-  margin-top: 65px;
+  margin-top: 63px;
 }
 
 .logo-2 {
@@ -447,7 +463,7 @@ h4 {
 .date p::before {
   content: "";
   position: absolute;
-  top: 38px;
+  top: 30px;
   left: 0;
   width: 65px;
   height: 2px;
@@ -457,16 +473,16 @@ h4 {
 .date p::after {
   content: "";
   position: absolute;
-  top: 38px;
-  right: 5px;
+  top: 30px;
+  right: 0;
   width: 65px;
   height: 2px;
   background-color: #eeeeee;
 }
 
 p.second-header {
-  margin-top: 47px;
-  margin-bottom: 27px;
+  margin-top: 45px;
+  margin-bottom: 22px;
   font-size: 16px;
   line-height: 22px;
   text-transform: uppercase;   
@@ -481,7 +497,7 @@ p.second-header {
 .about-us-list li {
   font-size: 16px;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   padding-left: 37px;
   position: relative;
 }
@@ -511,8 +527,13 @@ p.second-header {
   width: 210px;
   display: inline-block;
   vertical-align: middle;
-  margin: 40px 95px 30px 10px;  
+  margin: 45px 95px 30px 10px;  
   opacity: 0.3;
+}
+
+a.partner-gl {
+  margin-top: 39px;
+  margin-left: 22px;
 }
 
 .partners a:last-child {
@@ -544,7 +565,7 @@ aside h3 {
 .range-filter {
   width: 240px;
   margin-top: 15px;
-  margin-bottom: 47px;
+  margin-bottom: 40px;
 }
 
 .range-controls {
@@ -553,7 +574,7 @@ aside h3 {
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   margin-top: 0;
   border-radius: 5px;
   background: #f1f1f1;
@@ -627,7 +648,7 @@ aside h3 {
 }
 
 .filter-item {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   height: 26px;
   line-height: 20px;
   font-size: 16px;
@@ -737,7 +758,7 @@ input[type="radio"]:checked + label::after {
 }
 
 .filter-item:last-child {
-  padding-bottom: 25px;
+  padding-bottom: 27px;
 }
 
 input[type="radio"] + label:hover {
@@ -768,6 +789,7 @@ input[type="radio"]:disabled + label {
   line-height: 38px;
   background-color: #f1f1f1;
   color: black;
+  margin-top: 7px;
 }
 
 .btn-filter:hover {
@@ -794,7 +816,7 @@ button {
 .right-block {
   float: right;
   width: 560px;
-  height: 1204px;
+  height: 1210px;
   margin-right: 10px;
 }
 
@@ -1088,7 +1110,7 @@ button {
 
 .pagination-item {
   text-align: center;
-  margin-right: 10px;
+  margin-right: 12px;
   height: 38px;
   width: 34px;
   line-height: 38px;
@@ -1103,7 +1125,7 @@ button {
 }
 
 .pag {
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: none;
   color: #000;
 }
@@ -1170,8 +1192,8 @@ iframe {
 }
 
 .write-us h3 {
-  padding-top: 28px;
-  padding-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 12px;
   margin: 0;
 }
 
@@ -1185,7 +1207,7 @@ iframe {
 }
 
 .red-big {
-  padding: 0;
+  margin-top: 8px;
   width: 206px;
   height: 38px;
   border-radius: 3px;
@@ -1197,8 +1219,8 @@ iframe {
   position: absolute;
   float: left;
   background: url("../img/marker-footer.png");
-  top: 90px;
-  right: 40px;
+  top: 110px;
+  right: 15px;
 }
 
 .logo-3 {
@@ -1215,10 +1237,10 @@ iframe {
 .footer-social {
   float: left;
   width: 240px;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-top: 77px;
   margin-bottom: 77px;
-  margin-right: 77px;
+  margin-right: 68px;
 }
 
 .social-btn {
@@ -1264,6 +1286,7 @@ iframe {
   margin-top: 65px;
   margin-bottom: 65px;
   margin-right: 10px;
+  margin-left: 5px;
 }
  
 .footer-text h2 {
@@ -1271,6 +1294,9 @@ iframe {
   margin-top: 10px;    
 }
 
+.footer-text p {
+  margin-top: 10px;	
+}
 /*-----------FEEDBACK WINDOW-----------------*/
 
 .feedback-content {
