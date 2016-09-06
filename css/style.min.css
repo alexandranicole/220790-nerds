@@ -16,14 +16,14 @@ h1,h3 {
     font-weight: 400
 }
 
-.left h1,.left p,h2 {
+h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 36px
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     text-transform: uppercase
 }
@@ -40,7 +40,12 @@ h3 {
 
 .main-header {
     background: #eee;
-    margin: 0 auto
+    margin: 0 auto;
+    height: 436px
+}
+
+.second {
+    height: 328px
 }
 
 .logo {
@@ -55,7 +60,12 @@ h3 {
     width: 450px;
     font-size: 0;
     margin-top: 55px;
+    margin-bottom: 50px;
     margin-left: 140px
+}
+
+.shop-navigation {
+    margin-bottom: 60px
 }
 
 .main-navigation ul {
@@ -73,7 +83,7 @@ h3 {
 
 .main-navigation a {
     display: block;
-    margin: 0 23px;
+    margin: 0 22px;
     text-decoration: none;
     color: #000
 }
@@ -110,11 +120,13 @@ h3 {
     display: block;
     font-size: 14px;
     line-height: 30px;
+    text-transform: uppercase;
     vertical-align: top;
     text-decoration: none;
-    padding-left: 34px;
+    padding-left: 33px;
     margin-top: 55px;
     padding-bottom: 40px;
+    margin-right: 5px;
     color: #000;
     position: relative
 }
@@ -160,12 +172,16 @@ h3 {
     height: 200px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 75px
+    margin-bottom: 80px
 }
 
 .basket .active {
     color: #000;
     border-bottom: 2px solid #fb565a
+}
+
+main.shop {
+    margin-top: 75px
 }
 
 .slider {
@@ -206,15 +222,20 @@ h3 {
     text-align: center
 }
 
+.left,.left p {
+    padding-top: 20px
+}
+
 .left {
     float: left;
     width: 480px;
-    padding-top: 20px;
     text-align: left
 }
 
 .left h1,.left p {
     font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
     padding-right: 80px;
     margin-bottom: 0;
     margin-top: 0
@@ -223,7 +244,6 @@ h3 {
 .left p {
     font-size: 16px;
     line-height: 22px;
-    padding-top: 15px;
     padding-right: 10px;
     padding-bottom: 27px;
     color: #283136
@@ -234,6 +254,7 @@ h3 {
     height: 38px;
     text-align: center;
     display: inline-block;
+    font-weight: 300;
     font-size: 12px;
     line-height: 38px;
     color: #fff;
@@ -241,11 +262,12 @@ h3 {
     text-decoration: none;
     background: #fb565a;
     border-radius: 3px;
-    cursor: pointer
+    cursor: pointer;
+    overflow: hidden
 }
 
 .btn-big {
-  width: 240px;	
+    width: 240px
 }
 
 .btn:hover {
@@ -257,7 +279,7 @@ h3 {
     box-shadow: inset 0 3px 0 0 rgba(0,0,0,.2)
 }
 
-.btn,.red-big {
+.red-big {
     font-weight: 300
 }
 
@@ -285,14 +307,14 @@ h3 {
     background: #c1c1c1
 }
 
-.main-h {
-    margin: 68px 116px 89px 102px;
+.main-h h4 {
+    margin: 60px 116px 77px 102px;
     text-align: center
 }
 
 .catalog {
     height: 301px;
-    margin: 81px 10px 70px
+    margin: 80px 10px 76px
 }
 
 .catalog-item {
@@ -304,7 +326,7 @@ h3 {
 .pic {
     display: block;
     height: 124px;
-    margin-bottom: 27px
+    margin-bottom: 23px
 }
 
 .name {
@@ -318,10 +340,10 @@ h3 {
 .catalog-item p {
     font-size: 15px;
     line-height: 22px;
-    padding-bottom: 20px;
-    padding-top: 16px;
+    padding-bottom: 30px;
+    padding-top: 12px;
     margin: 0;
-	color: #283136;
+    color: #283136
 }
 
 .btn-green {
@@ -365,7 +387,7 @@ h3 {
     height: 335px;
     padding-top: 0;
     margin-right: 57px;
-    margin-top: 72px
+    margin-top: 75px
 }
 
 .content-left h2 {
@@ -388,9 +410,9 @@ h3 {
 }
 
 .date p {
-    padding-top: 28px;
+    padding-top: 18px;
     padding-right: 70px;
-    padding-left: 75px;
+    padding-left: 78px;
     position: relative;
     margin-bottom: 70px;
     margin-top: 0
@@ -402,7 +424,7 @@ h3 {
     width: 240px;
     height: 400px;
     margin-right: 0;
-    margin-top: 65px
+    margin-top: 63px
 }
 
 .logo-2 {
@@ -413,7 +435,7 @@ h3 {
 .about-us-list li::before,.date p::after,.date p::before {
     content: "";
     position: absolute;
-    top: 38px;
+    top: 27px;
     width: 65px;
     height: 2px;
     background-color: #eee
@@ -424,12 +446,12 @@ h3 {
 }
 
 .date p::after {
-    right: 5px
+    right: 0
 }
 
 p.second-header {
-    margin-top: 47px;
-    margin-bottom: 27px;
+    margin-top: 45px;
+    margin-bottom: 22px;
     line-height: 22px
 }
 
@@ -442,7 +464,7 @@ p.second-header {
 .about-us-list li {
     font-size: 16px;
     line-height: 22px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding-left: 37px;
     position: relative
 }
@@ -468,8 +490,13 @@ p.second-header {
     width: 210px;
     display: inline-block;
     vertical-align: middle;
-    margin: 40px 95px 30px 10px;
+    margin: 45px 95px 30px 10px;
     opacity: .3
+}
+
+a.partner-gl {
+    margin-top: 39px;
+    margin-left: 22px
 }
 
 .partners a:last-child {
@@ -493,13 +520,13 @@ aside {
 
 aside h3 {
     margin-top: 0;
-    margin-bottom: 20px
+    margin-bottom: 15px
 }
 
 .range-filter {
     width: 240px;
     margin-top: 15px;
-    margin-bottom: 50px
+    margin-bottom: 40px
 }
 
 .range-controls {
@@ -508,7 +535,7 @@ aside h3 {
     padding-top: 39px;
     padding-right: 20px;
     padding-left: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     margin-top: 0;
     border-radius: 5px;
     background: #f1f1f1
@@ -582,7 +609,7 @@ aside h3 {
 }
 
 .filter-item {
-    margin-bottom: 19px;
+    margin-bottom: 14px;
     height: 26px;
     line-height: 20px;
     font-size: 16px
@@ -687,7 +714,7 @@ input[type=radio]:checked+label::after {
 }
 
 .filter-item:last-child {
-    padding-bottom: 25px
+    padding-bottom: 27px
 }
 
 .sort-list a.active::after,input[type=radio]+label:hover {
@@ -716,31 +743,34 @@ input[type=radio]:disabled+label {
     height: 38px;
     line-height: 38px;
     background-color: #f1f1f1;
-    color: #000;
+    margin-top: 7px;
+    border-radius: 3px;
+    color: #000
 }
 
 .btn-filter:hover {
-    background-color: #e5e5e5;
+    background-color: #e5e5e5
 }
 
 .btn-filter:active {
-    background-color: #d5d5d5;
+    background-color: #d5d5d5
 }
 
 button {
     outline: none;
-    border: none;
+    border: none
 }
 
 .container {
     position: relative;
     width: 900px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .right-block {
     float: right;
     width: 560px;
+    height: 1210px;
     margin-right: 10px
 }
 
@@ -748,7 +778,7 @@ button {
     float: left;
     display: block;
     width: 560px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
 
 .sort-list {
@@ -772,30 +802,30 @@ button {
 .sort-item {
     color: #cacaca;
     text-decoration: none;
-    border-bottom: 1px dashed #00ca74;
+    border-bottom: 1px dashed #00ca74
 }
 
 .sort-item:hover {
     color: #000;
-    border-bottom: 1px solid #00ca74;
+    border-bottom: 1px solid #00ca74
 }
 
 .sort-item:active {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fff
 }
 
 .sort-list a.active {
     color: #000;
-    border-bottom: none;
+    border-bottom: none
 }
 
 .arrow,.arrow li {
     display: inline-block;
-    margin: 0;
+    margin: 0
 }
 
 .arrow {
-    width: 50px;
+    width: 50px
 }
 
 .arrow li {
@@ -803,7 +833,7 @@ button {
     text-decoration: none;
     vertical-align: middle;
     line-height: 7px;
-    padding: 0;
+    padding: 0
 }
 
 .triangle-down {
@@ -888,7 +918,7 @@ button {
     margin-right: 10px;
     margin-left: 0;
     margin-top: 18px;
-    font-size: 0;
+    font-size: 0
 }
 
 .catalog-item-c {
@@ -904,6 +934,12 @@ button {
     font-size: 0;
     position: relative;
     margin-right: 80px
+}
+
+.pic-catalog {
+    display: block;
+    height: 240px;
+    width: 239px
 }
 
 .catalog-item-dots {
@@ -932,32 +968,39 @@ button {
     margin-right: 0
 }
 
-.item-description h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-top: 33px;
-    text-transform: uppercase;
-    text-align: center
+.btn-buy,.item-description {
+    overflow: hidden;
+    position: absolute
 }
 
 .item-description {
-    overflow: hidden;
-    position: absolute;
+    margin: 20px;
+    top: 30px;
+    background-color: #fff;
+    box-sizing: border-box;
     width: 200px;
     height: 200px;
-    margin: 20px;
-    padding-bottom: 30px;
-    top: 30px;
-    left: 2px;
-    background-color: #fff;
-    box-sizing: border-box
+    padding: 30px;
+    left: 2px
+}
+
+.item-description h2,.item-description p {
+    overflow: hidden;
+    line-height: 18px;
+    text-align: center;
+    max-width: 160px
+}
+
+.item-description h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    max-height: 36px
 }
 
 .item-description p {
     font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    margin-bottom: 30px
+    max-height: 40px
 }
 
 .btn-buy {
@@ -967,7 +1010,11 @@ button {
     width: 140px;
     height: 38px;
     color: #fff;
-    font-size: 18px
+    font-size: 18px;
+    max-width: 140px;
+    bottom: 30px;
+    left: 0;
+    right: 0
 }
 
 .item-description {
@@ -995,22 +1042,22 @@ button {
 
 .pagination-item {
     text-align: center;
-    margin-right: 10px;
-    height: 34px;
+    margin-right: 12px;
+    height: 38px;
     width: 34px;
     line-height: 38px;
     background-color: #f1f1f1;
-    border-radius: 3px;
-    border: 2px solid transparent
+    border-radius: 3px
 }
 
 .pagination-current {
+    height: 34px;
     background: #fff;
     border: 2px solid #e1e1e1
 }
 
 .pag {
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
     color: #000
 }
@@ -1029,7 +1076,12 @@ button {
 
 .pagination-item-next:active,.pagination-item:active {
     background-color: #d5d5d5;
-	box-shadow: inset 0 3px 0 0 #b5b5b5;
+    box-shadow: inset 0 3px 0 0 #b5b5b5
+}
+
+img {
+    max-width: 100%;
+    height: auto
 }
 
 .main-footer {
@@ -1047,6 +1099,10 @@ button {
     background: url(../img/map.jpg) no-repeat center
 }
 
+iframe {
+    width: 100%
+}
+
 .top {
     height: 416px
 }
@@ -1054,7 +1110,7 @@ button {
 .write-us {
     float: left;
     box-sizing: border-box;
-    max-width: 250px;
+    width: 250px;
     min-height: 240px;
     background: #fff;
     margin-top: 88px;
@@ -1064,8 +1120,8 @@ button {
 }
 
 .write-us h3 {
-    padding-top: 28px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 12px;
     margin: 0
 }
 
@@ -1079,7 +1135,7 @@ button {
 }
 
 .red-big {
-    padding: 0;
+    margin-top: 8px;
     width: 206px;
     height: 38px;
     border-radius: 3px
@@ -1091,8 +1147,8 @@ button {
     position: absolute;
     float: left;
     background: url(../img/marker-footer.png);
-    top: 30px;
-    right: 40px
+    top: 110px;
+    right: 15px
 }
 
 .logo-3 {
@@ -1106,7 +1162,7 @@ button {
 .footer-social {
     float: left;
     width: 240px;
-    margin: 77px 77px 77px 10px
+    margin: 77px 68px 77px 15px
 }
 
 .social-btn {
@@ -1149,13 +1205,15 @@ button {
     float: right;
     width: 550px;
     height: 80px;
-    margin-top: 65px;
-    margin-bottom: 65px;
-    margin-right: 10px
+    margin: 65px 10px 65px 5px
 }
 
 .footer-text h2 {
     margin-bottom: 5px;
+    margin-top: 10px
+}
+
+.footer-text p {
     margin-top: 10px
 }
 
