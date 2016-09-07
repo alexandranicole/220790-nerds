@@ -206,6 +206,14 @@ main.shop {
     background-position: 100% 10px
 }
 
+.slider-item:nth-child(2) {
+    background-position: 98% 13px;
+}
+
+.slider-item:nth-child(3) {
+    background-position: 99% -9px;
+}
+
 .slider-controls label {
     display: inline-block;
     width: 4px;
@@ -242,7 +250,6 @@ main.shop {
     font-weight: 500;
     font-size: 36px;
     line-height: 36px;
-    padding-right: 80px;
     margin-bottom: 0;
     margin-top: 0
 }
@@ -880,22 +887,21 @@ button {
 
 .triangle,.triangle:hover {
     border-bottom-width: 0;
-	
 }
 
 .triangle-down:hover {
     border-top-width: 0;
 	border-left-width: 5px;
-  border-right-width: 5px;
+    border-right-width: 5px;
 }
 
 .triangle:active {
     border: 10px solid #000;
     border-bottom-width: 0;
 	border-left-width: 5px;
-  border-right-width: 5px;
+    border-right-width: 5px;
 	border-left-color: transparent;
-  border-right-color: transparent;
+    border-right-color: transparent;
 }
 
 .arrow a.active,.arrow a.active::after,.triangle-down:active,.triangle:active {
@@ -909,10 +915,10 @@ button {
     border-top-width: 0;
     border: 10px solid #000;
 	border-left-width: 5px;
-  border-right-width: 5px;
-  border-top-width: 0;
-  border-left-color: transparent;
-  border-right-color: transparent;
+    border-right-width: 5px;
+    border-top-width: 0;
+    border-left-color: transparent;
+    border-right-color: transparent;
 }
 
 .arrow a.active,.arrow a.active::after {
@@ -1018,7 +1024,6 @@ button {
 .item-description p {
     font-size: 14px;
     max-height: 40px;
-	
 }
 
 .btn-buy {

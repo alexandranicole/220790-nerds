@@ -1,4 +1,3 @@
-
 body {
   min-width: 900px;
   font-family: Roboto, Tahoma, sans-serif;
@@ -7,7 +6,6 @@ body {
   color: #000000;
   line-height: 22px;
 }
-
 
 h1 {
   font-size: 40px;
@@ -110,7 +108,6 @@ h5 {
 
 .main-navigation .active {
   position: relative;
-  
 }
 
 .main-navigation .active::after {
@@ -184,6 +181,7 @@ h5 {
   background-image: url("../img/sprite/spritesheet.png");
   background-position: -20px -254px;
 }
+
 .bottom-container {
   clear: both;
   height: 200px;
@@ -199,7 +197,6 @@ h5 {
 
 main.shop {
   margin-top: 75px;
-  
 }
 
 /*----------------------------SLIDER-----------------*/
@@ -219,6 +216,14 @@ main.shop {
   min-height: 308px;
   background-repeat: no-repeat;
   background-position: 100% 10px;
+}
+
+.slider-item:nth-child(2) {
+  background-position: 98% 13px;
+}
+
+.slider-item:nth-child(3) {
+  background-position: 99% -9px;
 }
 
 .slider-controls label {
@@ -241,7 +246,6 @@ main.shop {
   margin-left: -100px;
   text-align: center;
 }
-
 
 .left {
   float: left;
@@ -387,6 +391,7 @@ main.shop {
 .btn-green {
   background-color: #00ca74;
 }
+
 .btn-green:hover {
   background-color: #01a25e;
 }
@@ -402,6 +407,7 @@ main.shop {
 .btn-yellow:hover {
   background-color: #d6ae2c;
 }
+
 .btn-yellow:active {
   background-color:#c09b24;
 }
@@ -870,6 +876,7 @@ button {
   color: black;
   border-bottom: none;
 }
+
 .sort-list a.active::after {
   color: black;
 }
@@ -1269,8 +1276,8 @@ iframe {
 
 .social-btn-fb {
   background-position: 4px -292px;
-
 }
+
 .social-btn-inst {
   background-position: 1px -353px;
 }
@@ -1301,6 +1308,7 @@ iframe {
 .footer-text p {
   margin-top: 10px;	
 }
+
 /*-----------FEEDBACK WINDOW-----------------*/
 
 .feedback-content {
