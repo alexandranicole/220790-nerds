@@ -23,6 +23,12 @@ h2 {
 }
 
 h3 {
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase
+}
+
+h5 {
     font-size: 16px;
     line-height: 30px;
     text-transform: uppercase
@@ -60,7 +66,7 @@ h3 {
     width: 450px;
     font-size: 0;
     margin-top: 55px;
-    margin-bottom: 50px;
+    margin-bottom: 42px;
     margin-left: 140px
 }
 
@@ -83,7 +89,7 @@ h3 {
 
 .main-navigation a {
     display: block;
-    margin: 0 22px;
+    margin: 0 22.5px;
     text-decoration: none;
     color: #000
 }
@@ -123,10 +129,9 @@ h3 {
     text-transform: uppercase;
     vertical-align: top;
     text-decoration: none;
-    padding-left: 33px;
+    padding-left: 25px;
     margin-top: 55px;
     padding-bottom: 40px;
-    margin-right: 5px;
     color: #000;
     position: relative
 }
@@ -148,7 +153,7 @@ h3 {
 .basket::before,.basket:active:before,.basket:hover::before {
     content: "";
     position: absolute;
-    left: 7px;
+    left: -3px;
     width: 15px;
     height: 15px;
     background-image: url(../img/sprite/spritesheet.png)
@@ -215,15 +220,16 @@ main.shop {
 
 .slider-controls {
     position: absolute;
+	margin-bottom: 7px;
     bottom: 75px;
     left: 50%;
-    width: 200px;
+    width: 180px;
     margin-left: -100px;
     text-align: center
 }
 
 .left,.left p {
-    padding-top: 20px
+    padding-top: 29px
 }
 
 .left {
@@ -245,7 +251,8 @@ main.shop {
     font-size: 16px;
     line-height: 22px;
     padding-right: 10px;
-    padding-bottom: 27px;
+    padding-bottom: 26px;
+    padding-top: 20px;
     color: #283136
 }
 
@@ -308,7 +315,7 @@ main.shop {
 }
 
 .main-h h4 {
-    margin: 60px 116px 77px 102px;
+    margin: 70px 116px 70px 106px;
     text-align: center
 }
 
@@ -340,8 +347,8 @@ main.shop {
 .catalog-item p {
     font-size: 15px;
     line-height: 22px;
-    padding-bottom: 30px;
-    padding-top: 12px;
+    padding-bottom: 28px;
+    padding-top: 13px;
     margin: 0;
     color: #283136
 }
@@ -387,7 +394,7 @@ main.shop {
     height: 335px;
     padding-top: 0;
     margin-right: 57px;
-    margin-top: 75px
+    margin-top: 73px
 }
 
 .content-left h2 {
@@ -410,7 +417,7 @@ main.shop {
 }
 
 .date p {
-    padding-top: 18px;
+    padding-top: 19px;
     padding-right: 70px;
     padding-left: 78px;
     position: relative;
@@ -424,7 +431,7 @@ main.shop {
     width: 240px;
     height: 400px;
     margin-right: 0;
-    margin-top: 63px
+    margin-top: 61px
 }
 
 .logo-2 {
@@ -464,7 +471,7 @@ p.second-header {
 .about-us-list li {
     font-size: 16px;
     line-height: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     padding-left: 37px;
     position: relative
 }
@@ -490,12 +497,12 @@ p.second-header {
     width: 210px;
     display: inline-block;
     vertical-align: middle;
-    margin: 45px 95px 30px 10px;
+    margin: 42px 95px 30px 10px;
     opacity: .3
 }
 
 a.partner-gl {
-    margin-top: 39px;
+    margin-top: 36px;
     margin-left: 22px
 }
 
@@ -526,7 +533,7 @@ aside h3 {
 .range-filter {
     width: 240px;
     margin-top: 15px;
-    margin-bottom: 40px
+    margin-bottom: 43px
 }
 
 .range-controls {
@@ -535,7 +542,7 @@ aside h3 {
     padding-top: 39px;
     padding-right: 20px;
     padding-left: 20px;
-    margin-bottom: 13px;
+    margin-bottom: 11px;
     margin-top: 0;
     border-radius: 5px;
     background: #f1f1f1
@@ -570,7 +577,7 @@ aside h3 {
 }
 
 .range-controls .toggle-max {
-    left: 145px
+    left: 159px
 }
 
 .price-controls {
@@ -593,7 +600,7 @@ aside h3 {
     font-size: 16px;
     width: 80px;
     height: 38px;
-    margin-left: 5px;
+    margin-left: 9px;
     text-align: center;
     color: #283136;
     border: none;
@@ -609,7 +616,7 @@ aside h3 {
 }
 
 .filter-item {
-    margin-bottom: 14px;
+    margin-bottom: 13.5px;
     height: 26px;
     line-height: 20px;
     font-size: 16px
@@ -623,7 +630,7 @@ input[type=checkbox]+label {
     display: inline-block;
     position: relative;
     vertical-align: top;
-    padding-left: 30px;
+    padding-left: 34px;
     color: #454c51;
     cursor: pointer
 }
@@ -682,7 +689,7 @@ input[type=radio]+label {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    padding-left: 30px;
+    padding-left: 34px;
     color: #454c51;
     cursor: pointer
 }
@@ -714,7 +721,7 @@ input[type=radio]:checked+label::after {
 }
 
 .filter-item:last-child {
-    padding-bottom: 27px
+    padding-bottom: 30px
 }
 
 .sort-list a.active::after,input[type=radio]+label:hover {
@@ -799,6 +806,10 @@ button {
     padding-right: 38px
 }
 
+.sort-point:last-child {
+    padding-right: 30px	
+}
+
 .sort-item {
     color: #cacaca;
     text-decoration: none;
@@ -825,7 +836,8 @@ button {
 }
 
 .arrow {
-    width: 50px
+    width: 50px;
+	padding-left: 43px
 }
 
 .arrow li {
@@ -837,12 +849,12 @@ button {
 }
 
 .triangle-down {
-    margin-left: 5px;
+    margin-left: 6px;
     display: inline-block;
     border: 10px solid #c1c1c1;
     border-top-width: 0;
-	border-left-width: 5px;
-    border-right-width: 5px;
+	border-left-width: 7px;
+    border-right-width: 7px;
 	border-right-color: transparent;
     border-left-color: transparent;
 }
@@ -939,7 +951,7 @@ button {
 .pic-catalog {
     display: block;
     height: 240px;
-    width: 239px
+    width: 240px
 }
 
 .catalog-item-dots {
@@ -980,27 +992,33 @@ button {
     box-sizing: border-box;
     width: 200px;
     height: 200px;
-    padding: 30px;
-    left: 2px
+    padding-top: 35px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px
 }
 
 .item-description h2,.item-description p {
     overflow: hidden;
     line-height: 18px;
     text-align: center;
+	margin-top: 9px;
     max-width: 160px
 }
 
 .item-description h2 {
     margin-top: 0;
+	margin-bottom: 9px;
     text-transform: uppercase;
     font-size: 18px;
-    max-height: 36px
+	line-height: 24px;
+    max-height: 44px
 }
 
 .item-description p {
     font-size: 14px;
-    max-height: 40px
+    max-height: 40px;
+	
 }
 
 .btn-buy {
@@ -1042,9 +1060,9 @@ button {
 
 .pagination-item {
     text-align: center;
-    margin-right: 12px;
+    margin-right: 11px;
     height: 38px;
-    width: 34px;
+    width: 36px;
     line-height: 38px;
     background-color: #f1f1f1;
     border-radius: 3px
@@ -1115,11 +1133,11 @@ iframe {
     background: #fff;
     margin-top: 88px;
     margin-left: 10px;
-    padding-left: 23px;
+    padding-left: 22px;
     padding-right: 23px
 }
 
-.write-us h3 {
+.write-us h5 {
     padding-top: 25px;
     padding-bottom: 12px;
     margin: 0
@@ -1130,7 +1148,7 @@ iframe {
     line-height: 20px;
     color: #666;
     text-align: left;
-    margin-bottom: 20px;
+	margin-bottom: 20px;
     margin-top: 0
 }
 
@@ -1156,13 +1174,13 @@ iframe {
     width: 98px;
     height: 38px;
     margin-top: 55px;
-    margin-left: 30px
+    margin-left: 34px
 }
 
 .footer-social {
     float: left;
     width: 240px;
-    margin: 77px 68px 77px 15px
+    margin: 77px 68px 77px 13px
 }
 
 .social-btn {
@@ -1172,7 +1190,7 @@ iframe {
     height: 61px;
     border-radius: 50%;
     background: #e1e1e1 url(../img/sprite/spritesheet.png) no-repeat center;
-    margin-right: 20px;
+    margin-right: 24px;
     text-decoration: none
 }
 
@@ -1205,7 +1223,7 @@ iframe {
     float: right;
     width: 550px;
     height: 80px;
-    margin: 65px 10px 65px 5px
+    margin: 65px 20px 65px 1px
 }
 
 .footer-text h2 {

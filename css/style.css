@@ -34,6 +34,12 @@ h4 {
   text-transform: uppercase; 
 }
 
+h5 {
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
 /*HEADER*/
 
 .clearfix::after {
@@ -64,7 +70,7 @@ h4 {
   width: 450px;
   font-size: 0;
   margin-top: 55px;
-  margin-bottom: 50px;
+  margin-bottom: 42px;
   margin-left: 140px;
 }
 
@@ -88,7 +94,7 @@ h4 {
 
 .main-navigation a {
   display: block;  
-  margin: 0 22px;
+  margin: 0 22.5px;
   text-decoration: none;
   color: #000000;
 }
@@ -129,10 +135,9 @@ h4 {
   text-transform: uppercase; 
   vertical-align: top;
   text-decoration: none;
-  padding-left: 33px;
+  padding-left: 25px;
   margin-top: 55px;
   padding-bottom: 40px;
-  margin-right: 5px;
   color: #000000;
   position: relative;
 }
@@ -232,7 +237,7 @@ main.shop {
   position: absolute;
   bottom: 75px;
   left: 50%;
-  width: 200px;
+  width: 180px;
   margin-left: -100px;
   text-align: center;
 }
@@ -259,7 +264,7 @@ main.shop {
   line-height: 22px;
   padding-top: 20px;
   padding-right: 10px;
-  padding-bottom: 27px;
+  padding-bottom: 26px;
   margin-bottom: 0;
   margin-top: 0;
   color: #283136;
@@ -373,8 +378,8 @@ main.shop {
 .catalog-item p {
   font-size: 15px;
   line-height: 22px;
-  padding-bottom: 30px;
-  padding-top: 12px;
+  padding-bottom: 28px;
+  padding-top: 13px;
   margin: 0;
   color: #283136;
 }
@@ -418,7 +423,7 @@ main.shop {
   height: 335px;
   padding-top: 0;
   margin-right: 57px;
-  margin-top: 75px;
+  margin-top: 73px;
 }
 
 .content-left h2 {
@@ -436,7 +441,7 @@ main.shop {
 }
 
 .date p {
-  padding-top: 18px;
+  padding-top: 19px;
   padding-right: 70px;
   padding-left: 78px;
   text-transform: uppercase;
@@ -452,7 +457,7 @@ main.shop {
   width: 240px;
   height: 400px;
   margin-right: 0px;
-  margin-top: 63px;
+  margin-top: 61px;
 }
 
 .logo-2 {
@@ -473,7 +478,7 @@ main.shop {
 .date p::after {
   content: "";
   position: absolute;
-  top: 30px;
+  top: 27px;
   right: 0;
   width: 65px;
   height: 2px;
@@ -532,7 +537,7 @@ p.second-header {
 }
 
 a.partner-gl {
-  margin-top: 39px;
+  margin-top: 36px;
   margin-left: 22px;
 }
 
@@ -565,7 +570,7 @@ aside h3 {
 .range-filter {
   width: 240px;
   margin-top: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 43px;
 }
 
 .range-controls {
@@ -574,7 +579,7 @@ aside h3 {
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
-  margin-bottom: 13px;
+  margin-bottom: 11px;
   margin-top: 0;
   border-radius: 5px;
   background: #f1f1f1;
@@ -648,7 +653,7 @@ aside h3 {
 }
 
 .filter-item {
-  margin-bottom: 14px;
+  margin-bottom: 13.5px;
   height: 26px;
   line-height: 20px;
   font-size: 16px;
@@ -662,7 +667,7 @@ input[type="checkbox"] + label {
   display: inline-block;
   position: relative;
   vertical-align: top;
-  padding-left: 30px;
+  padding-left: 34px;
   color: #454c51;
   cursor: pointer;
 }
@@ -726,7 +731,7 @@ input[type="radio"] + label {
   display: inline-block;
   vertical-align: top;
   position: relative; 
-  padding-left: 30px;
+  padding-left: 34px;
   color: #454c51;
   cursor: pointer;
 }
@@ -758,7 +763,7 @@ input[type="radio"]:checked + label::after {
 }
 
 .filter-item:last-child {
-  padding-bottom: 27px;
+  padding-bottom: 30px;
 }
 
 input[type="radio"] + label:hover {
@@ -887,7 +892,7 @@ button {
 }
 
 .triangle-down {
-  margin-left: 5px;
+  margin-left: 6px;
   display: inline-block;
   border: 10px solid #c1c1c1;
   border-left-width: 5px;
@@ -988,7 +993,7 @@ button {
 .pic-catalog {
   display: block;
   height: 240px;
-  width: 239px;	
+  width: 240px;	
 }
 
 .catalog-item-dots {
@@ -1044,11 +1049,12 @@ button {
 .item-description h2 {
   overflow: hidden;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 24px;
   margin-top: 0;
+  margin-bottom: 9px; 
   text-transform: uppercase;
   text-align: center;
-  max-height: 36px;
+  max-height: 44px;
   max-width: 160px;
 }
 
@@ -1110,7 +1116,7 @@ button {
   text-align: center;
   margin-right: 12px;
   height: 38px;
-  width: 34px;
+  width: 36px;
   line-height: 38px;
   background-color: #f1f1f1;
   border-radius: 3px;
@@ -1185,11 +1191,11 @@ iframe {
   background: #fff;
   margin-top: 88px;
   margin-left: 10px;
-  padding-left: 23px;
+  padding-left: 22px;
   padding-right: 23px;
 }
 
-.write-us h3 {
+.write-us h5 {
   padding-top: 25px;
   padding-bottom: 12px;
   margin: 0;
@@ -1235,7 +1241,7 @@ iframe {
 .footer-social {
   float: left;
   width: 240px;
-  margin-left: 15px;
+  margin-left: 13px;
   margin-top: 77px;
   margin-bottom: 77px;
   margin-right: 68px;
@@ -1248,7 +1254,7 @@ iframe {
   height: 61px;
   border-radius: 50%;
   background: #e1e1e1 url("../img/sprite/spritesheet.png") no-repeat center;
-  margin-right: 20px;
+  margin-right: 24px;
   text-decoration: none;
 }
 
@@ -1283,8 +1289,8 @@ iframe {
   height: 80px;
   margin-top: 65px;
   margin-bottom: 65px;
-  margin-right: 10px;
-  margin-left: 5px;
+  margin-right: 20px;
+  margin-left: 1px;
 }
  
 .footer-text h2 {
